@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FEDE94C24C3375A00565C90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEDE94B24C3375A00565C90 /* AppDelegate.swift */; };
+		2FEDE94E24C3375A00565C90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEDE94D24C3375A00565C90 /* SceneDelegate.swift */; };
+		2FEDE95024C3375A00565C90 /* SpyRAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEDE94F24C3375A00565C90 /* SpyRAViewController.swift */; };
+		2FEDE95324C3375A00565C90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FEDE95124C3375A00565C90 /* Main.storyboard */; };
+		2FEDE95524C3376700565C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FEDE95424C3376700565C90 /* Assets.xcassets */; };
+		2FEDE95824C3376700565C90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FEDE95624C3376700565C90 /* LaunchScreen.storyboard */; };
+		2FEDE96324C3376900565C90 /* SpyRaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEDE96224C3376900565C90 /* SpyRaTests.swift */; };
+		2FEDE96E24C3376900565C90 /* SpyRaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEDE96D24C3376900565C90 /* SpyRaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FEDE95F24C3376900565C90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FEDE94024C3375A00565C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FEDE94724C3375A00565C90;
+			remoteInfo = SpyRa;
+		};
+		2FEDE96A24C3376900565C90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FEDE94024C3375A00565C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FEDE94724C3375A00565C90;
+			remoteInfo = SpyRa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FEDE94824C3375A00565C90 /* SpyRa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpyRa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEDE94B24C3375A00565C90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FEDE94D24C3375A00565C90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2FEDE94F24C3375A00565C90 /* SpyRAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyRAViewController.swift; sourceTree = "<group>"; };
+		2FEDE95224C3375A00565C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FEDE95424C3376700565C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FEDE95724C3376700565C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FEDE95924C3376700565C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FEDE95E24C3376900565C90 /* SpyRaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpyRaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEDE96224C3376900565C90 /* SpyRaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyRaTests.swift; sourceTree = "<group>"; };
+		2FEDE96424C3376900565C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FEDE96924C3376900565C90 /* SpyRaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpyRaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEDE96D24C3376900565C90 /* SpyRaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyRaUITests.swift; sourceTree = "<group>"; };
+		2FEDE96F24C3376900565C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FEDE94524C3375A00565C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEDE95B24C3376900565C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEDE96624C3376900565C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FEDE93F24C3375A00565C90 = {
+			isa = PBXGroup;
+			children = (
+				2FEDE94A24C3375A00565C90 /* SpyRa */,
+				2FEDE96124C3376900565C90 /* SpyRaTests */,
+				2FEDE96C24C3376900565C90 /* SpyRaUITests */,
+				2FEDE94924C3375A00565C90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FEDE94924C3375A00565C90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FEDE94824C3375A00565C90 /* SpyRa.app */,
+				2FEDE95E24C3376900565C90 /* SpyRaTests.xctest */,
+				2FEDE96924C3376900565C90 /* SpyRaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FEDE94A24C3375A00565C90 /* SpyRa */ = {
+			isa = PBXGroup;
+			children = (
+				2FEDE94B24C3375A00565C90 /* AppDelegate.swift */,
+				2FEDE94D24C3375A00565C90 /* SceneDelegate.swift */,
+				2FEDE94F24C3375A00565C90 /* SpyRAViewController.swift */,
+				2FEDE95124C3375A00565C90 /* Main.storyboard */,
+				2FEDE95424C3376700565C90 /* Assets.xcassets */,
+				2FEDE95624C3376700565C90 /* LaunchScreen.storyboard */,
+				2FEDE95924C3376700565C90 /* Info.plist */,
+			);
+			path = SpyRa;
+			sourceTree = "<group>";
+		};
+		2FEDE96124C3376900565C90 /* SpyRaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FEDE96224C3376900565C90 /* SpyRaTests.swift */,
+				2FEDE96424C3376900565C90 /* Info.plist */,
+			);
+			path = SpyRaTests;
+			sourceTree = "<group>";
+		};
+		2FEDE96C24C3376900565C90 /* SpyRaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FEDE96D24C3376900565C90 /* SpyRaUITests.swift */,
+				2FEDE96F24C3376900565C90 /* Info.plist */,
+			);
+			path = SpyRaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FEDE94724C3375A00565C90 /* SpyRa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FEDE97224C3376900565C90 /* Build configuration list for PBXNativeTarget "SpyRa" */;
+			buildPhases = (
+				2FEDE94424C3375A00565C90 /* Sources */,
+				2FEDE94524C3375A00565C90 /* Frameworks */,
+				2FEDE94624C3375A00565C90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpyRa;
+			productName = SpyRa;
+			productReference = 2FEDE94824C3375A00565C90 /* SpyRa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FEDE95D24C3376900565C90 /* SpyRaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FEDE97524C3376900565C90 /* Build configuration list for PBXNativeTarget "SpyRaTests" */;
+			buildPhases = (
+				2FEDE95A24C3376900565C90 /* Sources */,
+				2FEDE95B24C3376900565C90 /* Frameworks */,
+				2FEDE95C24C3376900565C90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FEDE96024C3376900565C90 /* PBXTargetDependency */,
+			);
+			name = SpyRaTests;
+			productName = SpyRaTests;
+			productReference = 2FEDE95E24C3376900565C90 /* SpyRaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FEDE96824C3376900565C90 /* SpyRaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FEDE97824C3376A00565C90 /* Build configuration list for PBXNativeTarget "SpyRaUITests" */;
+			buildPhases = (
+				2FEDE96524C3376900565C90 /* Sources */,
+				2FEDE96624C3376900565C90 /* Frameworks */,
+				2FEDE96724C3376900565C90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FEDE96B24C3376900565C90 /* PBXTargetDependency */,
+			);
+			name = SpyRaUITests;
+			productName = SpyRaUITests;
+			productReference = 2FEDE96924C3376900565C90 /* SpyRaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FEDE94024C3375A00565C90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2FEDE94724C3375A00565C90 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					2FEDE95D24C3376900565C90 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 2FEDE94724C3375A00565C90;
+					};
+					2FEDE96824C3376900565C90 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 2FEDE94724C3375A00565C90;
+					};
+				};
+			};
+			buildConfigurationList = 2FEDE94324C3375A00565C90 /* Build configuration list for PBXProject "SpyRa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FEDE93F24C3375A00565C90;
+			productRefGroup = 2FEDE94924C3375A00565C90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FEDE94724C3375A00565C90 /* SpyRa */,
+				2FEDE95D24C3376900565C90 /* SpyRaTests */,
+				2FEDE96824C3376900565C90 /* SpyRaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FEDE94624C3375A00565C90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FEDE95824C3376700565C90 /* LaunchScreen.storyboard in Resources */,
+				2FEDE95524C3376700565C90 /* Assets.xcassets in Resources */,
+				2FEDE95324C3375A00565C90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEDE95C24C3376900565C90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEDE96724C3376900565C90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FEDE94424C3375A00565C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FEDE95024C3375A00565C90 /* SpyRAViewController.swift in Sources */,
+				2FEDE94C24C3375A00565C90 /* AppDelegate.swift in Sources */,
+				2FEDE94E24C3375A00565C90 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEDE95A24C3376900565C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FEDE96324C3376900565C90 /* SpyRaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEDE96524C3376900565C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FEDE96E24C3376900565C90 /* SpyRaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FEDE96024C3376900565C90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FEDE94724C3375A00565C90 /* SpyRa */;
+			targetProxy = 2FEDE95F24C3376900565C90 /* PBXContainerItemProxy */;
+		};
+		2FEDE96B24C3376900565C90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FEDE94724C3375A00565C90 /* SpyRa */;
+			targetProxy = 2FEDE96A24C3376900565C90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FEDE95124C3375A00565C90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FEDE95224C3375A00565C90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FEDE95624C3376700565C90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FEDE95724C3376700565C90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FEDE97024C3376900565C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FEDE97124C3376900565C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FEDE97324C3376900565C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D86HPCL4K;
+				INFOPLIST_FILE = SpyRa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.42madridFTel.SpyRa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2FEDE97424C3376900565C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D86HPCL4K;
+				INFOPLIST_FILE = SpyRa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.42madridFTel.SpyRa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2FEDE97624C3376900565C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D86HPCL4K;
+				INFOPLIST_FILE = SpyRaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.42madridFTel.SpyRaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpyRa.app/SpyRa";
+			};
+			name = Debug;
+		};
+		2FEDE97724C3376900565C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D86HPCL4K;
+				INFOPLIST_FILE = SpyRaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.42madridFTel.SpyRaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpyRa.app/SpyRa";
+			};
+			name = Release;
+		};
+		2FEDE97924C3376A00565C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D86HPCL4K;
+				INFOPLIST_FILE = SpyRaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.42madridFTel.SpyRaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpyRa;
+			};
+			name = Debug;
+		};
+		2FEDE97A24C3376A00565C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D86HPCL4K;
+				INFOPLIST_FILE = SpyRaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.42madridFTel.SpyRaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpyRa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FEDE94324C3375A00565C90 /* Build configuration list for PBXProject "SpyRa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEDE97024C3376900565C90 /* Debug */,
+				2FEDE97124C3376900565C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FEDE97224C3376900565C90 /* Build configuration list for PBXNativeTarget "SpyRa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEDE97324C3376900565C90 /* Debug */,
+				2FEDE97424C3376900565C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FEDE97524C3376900565C90 /* Build configuration list for PBXNativeTarget "SpyRaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEDE97624C3376900565C90 /* Debug */,
+				2FEDE97724C3376900565C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FEDE97824C3376A00565C90 /* Build configuration list for PBXNativeTarget "SpyRaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEDE97924C3376A00565C90 /* Debug */,
+				2FEDE97A24C3376A00565C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FEDE94024C3375A00565C90 /* Project object */;
+}
