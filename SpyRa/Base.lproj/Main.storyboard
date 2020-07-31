@@ -17,12 +17,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="IUD-ND-2O7" appends="YES" id="ico-ab-pJT"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="sceneView" destination="8bC-Xf-vdC" id="7r0-jg-6dn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="IUD-ND-2O7">
+                    <connections>
+                        <action selector="handleTao:" destination="BYZ-38-t0r" id="Bi2-gX-tyq"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-23" y="76"/>
         </scene>

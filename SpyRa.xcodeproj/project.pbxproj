@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FA939D524CEC7BE0054AC42 /* EmojiNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA939D324CEC7BE0054AC42 /* EmojiNode.swift */; };
+		2FA939D624CEC7BE0054AC42 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA939D424CEC7BE0054AC42 /* StringExtension.swift */; };
 		2FEDE94C24C3375A00565C90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEDE94B24C3375A00565C90 /* AppDelegate.swift */; };
 		2FEDE94E24C3375A00565C90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEDE94D24C3375A00565C90 /* SceneDelegate.swift */; };
 		2FEDE95024C3375A00565C90 /* SpyRAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEDE94F24C3375A00565C90 /* SpyRAViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FA939D324CEC7BE0054AC42 /* EmojiNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiNode.swift; sourceTree = "<group>"; };
+		2FA939D424CEC7BE0054AC42 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		2FEDE94824C3375A00565C90 /* SpyRa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpyRa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FEDE94B24C3375A00565C90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FEDE94D24C3375A00565C90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 		2FEDE94A24C3375A00565C90 /* SpyRa */ = {
 			isa = PBXGroup;
 			children = (
+				2FA939D324CEC7BE0054AC42 /* EmojiNode.swift */,
+				2FA939D424CEC7BE0054AC42 /* StringExtension.swift */,
 				2FEDE94B24C3375A00565C90 /* AppDelegate.swift */,
 				2FEDE94D24C3375A00565C90 /* SceneDelegate.swift */,
 				2FEDE94F24C3375A00565C90 /* SpyRAViewController.swift */,
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA939D524CEC7BE0054AC42 /* EmojiNode.swift in Sources */,
 				2FEDE95024C3375A00565C90 /* SpyRAViewController.swift in Sources */,
+				2FA939D624CEC7BE0054AC42 /* StringExtension.swift in Sources */,
 				2FEDE94C24C3375A00565C90 /* AppDelegate.swift in Sources */,
 				2FEDE94E24C3375A00565C90 /* SceneDelegate.swift in Sources */,
 			);
